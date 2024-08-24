@@ -28,6 +28,7 @@ subscription to another, that's why I've decided to create this app.
 
 ## Prerequisites
 
+0. **Java 17** or higher installed on your machine.
 1. **Microsoft 365 E5 Developer Program Subscriptions**: You need two MS 365 E5 subscriptions (one
    to migrate **from** and one to migrate **to**).
 2. **Microsoft Graph API Application Registrations**: Ensure you have appropriate migration
