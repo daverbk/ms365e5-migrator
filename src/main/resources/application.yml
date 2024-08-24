@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: ms365e5-migrator
+  main:
+    banner-mode: off
+
+migration:
+  from:
+    client-id: add client id to migrate FROM here
+    client-secret: add client to migrate FROM secret here
+    tenant-id: add tenant id to migrate FROM here
+  to:
+    client-id: add client id to migrate TO here
+    client-secret: add client to migrate TO secret here
+    tenant-id: add tenant id to migrate TO here
+  user-password: add the default user password that will be set for all migrated users here
+
+graph:
+  default-scope: https://graph.microsoft.com/.default
